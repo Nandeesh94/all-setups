@@ -12,3 +12,7 @@ cd /opt
 cd sonarqube-8.9.6.50800/bin/linux/
 ./sonar.sh start
 ./sonar status
+
+#run this on server manually
+#sh /opt/sonarqube-8.9.6.50800/bin/linux/sonar.sh start
+#echo "user=admin & password=admin
