@@ -14,5 +14,5 @@ mv kops-linux-amd64 /usr/local/bin/kops
 aws s3api create-bucket --bucket nandeeshgm20.k8s.local --region eu-west-3 --create-bucket-configuration LocationConraint=eu-west-3
 aws s3api put-bucket-versioning --bucket nandeeshgm20.k8s.local --region eu-west-3 --versioning-configuration Status=Enabled
 export KOPS_STATE_STORE=s3://nandeeshgm20.k8s.local
-kops create cluster --name nandeesh.k8s.local --zones eu-west-3 --master-count=1 --master-size t2.medium --node-count=2 --node-size t2.micro
-kops update cluster --name nandeesh.k8s.local --yes --admin
+kops create cluster --name maheshwari.k8s.local --zones eu-west-3 --master-count=1 --master-size t2.medium --node-count=2 --node-size t2.micro
+kops update cluster --name maheshwari.k8s.local --yes --admin
