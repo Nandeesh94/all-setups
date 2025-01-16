@@ -6,7 +6,7 @@ sudo ln -sf /opt/apache-maven-3.9.9/bin/mvn /usr/bin/mvn
 
 #Step 1: Verify Maven Version in Jenkins
 #Go to Jenkins > Manage Jenkins > Global Tool Configuration.
-#Scroll to the Maven section and check if Maven 3.9.9 is listed.
+#Scroll to the Maven section and check if Maven 3.9.9 is listed. (need latest version)
 #If it’s not:
 #Click Add Maven.
 #Name it (e.g., Maven-3.9.9).
