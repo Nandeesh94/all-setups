@@ -1,8 +1,9 @@
 #STEP-1: INSTALLING GIT JAVA-1.8.0  
 yum install git java-1.8.0-openjdk -y
-wget https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.6-bin.tar.gz
-sudo tar -xvzf apache-maven-3.9.6-bin.tar.gz -C /opt/
-sudo ln -sf /opt/apache-maven-3.9.6/bin/mvn /usr/bin/mvn
+wget https://archive.apache.org/dist/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.tar.gz
+sudo tar -xvzf apache-maven-3.9.9-bin.tar.gz -C /opt/
+sudo ln -sf /opt/apache-maven-3.9.9/bin/mvn /usr/bin/mvn
+
 
 #Step 1: Verify Maven Version in Jenkins
 #Go to Jenkins > Manage Jenkins > Global Tool Configuration.
