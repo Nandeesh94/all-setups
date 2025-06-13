@@ -19,8 +19,8 @@ sudo ln -sf /opt/apache-maven-3.9.9/bin/mvn /usr/bin/mvn
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 
-#STEP-3: DOWNLOAD JAVA11 AND JENKINS
-sudo yum install java-11-amazon-corretto -y
+#STEP-3: DOWNLOAD JAVA11 & JAVA17 AND JENKINS
+#sudo yum install java-11-amazon-corretto -y
 yum install jenkins -y
 sudo yum install java-17-amazon-corretto -y
 sudo systemctl daemon-reload
